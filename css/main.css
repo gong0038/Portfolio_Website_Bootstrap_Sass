@@ -1,5 +1,24 @@
 .navbar {
-  background-color: cornflowerblue;
+  background-color: #35781C;
+  border-bottom-style: solid;
+  border-color: white;
+}
+
+.bg {
+  background: url(../img/background.png) no-repeat;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.jumbotron {
+  height: 500px;
+}
+
+.jumbotron h1 {
+  font-size: 100px;
+  text-align: center;
+  margin-top: 5rem;
 }
 
 /*# sourceMappingURL=main.css.map */
