@@ -1,24 +1,35 @@
 .navbar {
   background-color: #35781C;
   border-bottom-style: solid;
-  border-color: white;
+  border-color: #ffffff;
 }
 
 .bg {
   background: url(../img/background.png) no-repeat;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-position: center;
+  position: center;
 }
 
 .jumbotron {
   height: 500px;
+  position: relative;
 }
 
 .jumbotron h1 {
   font-size: 100px;
   text-align: center;
-  margin-top: 5rem;
+}
+
+.img-circle {
+  width: 100px;
+  height: 100px;
+  padding: 1rem;
+}
+
+.h4 {
+  align-items: center;
+  background-color: #68B52C;
 }
 
 /*# sourceMappingURL=main.css.map */
