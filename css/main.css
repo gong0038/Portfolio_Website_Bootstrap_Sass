@@ -1,11 +1,9 @@
 .navbar {
-  background-color: #35781C;
   border-bottom-style: solid;
-  border-color: #ffffff;
 }
 
 .bg {
-  background: url(../img/background.png) no-repeat;
+  background: url(../img/background.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: center;
@@ -29,7 +27,6 @@
 
 .h4 {
   align-items: center;
-  background-color: #68B52C;
 }
 
 /*# sourceMappingURL=main.css.map */
