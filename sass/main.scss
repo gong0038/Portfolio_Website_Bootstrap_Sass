@@ -6,17 +6,24 @@
 .bg{
     background: url(../img/background.png) ;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
     position: center;
 }
 .jumbotron{
-    height: 500px;
-    position: relative;
+    width: 100%;
 }
-.jumbotron h1{
-    font-size: 100px;
-    text-align: center;
-}  
+.avatar{
+    max-width: 30px;
+}
+.jumbotron img{
+    width: 20%;
+    min-width: 100px;
+    max-width: 300px;
+    padding: 3em 0;
+
+}
+ 
 .img-circle{
     width: 100px;
     height: 100px;
@@ -25,4 +32,40 @@
 }
 .h4{
     align-items: center;
+}
+.jumbotron img{
+    position:center;
+}
+.card{
+    width: 21rem;
+}
+@media (max-width: 600px) {
+    .container{
+        max-width: 80%;
+      }
+    .jumbotron img{
+        width: 20%;
+        min-width: 100px;
+        max-width: 300px;
+        padding: 3em 0;
+      
+    }
+    .jumbotron{
+        width: 100%;
+    }
+}
+@media (min-width: 1150px) {
+    .container{
+      max-width: 80%;
+    }
+    .jumbotron img{
+        width: 20%;
+        min-width: 100px;
+        max-width: 300px;
+        padding: 3em 0;
+    }
+    .jumbotron{
+        width: 100%;
+    }
+    
 }
