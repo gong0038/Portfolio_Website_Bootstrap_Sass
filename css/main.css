@@ -25,6 +25,10 @@
   padding: 3em 0;
 }
 
+.col {
+  padding: 2rem, 1rem;
+}
+
 .img-circle {
   width: 100px;
   height: 100px;
@@ -40,12 +44,17 @@
 }
 
 .card {
-  width: 21rem;
+  padding: 1rem 1rem;
+  margin: 0.5rem 0.5rem;
+  width: auto;
+  min-width: 21rem;
+  max-width: 60rem;
 }
 
 @media (max-width: 600px) {
   .container {
     max-width: 80%;
+    padding: 1rem;
   }
 
   .jumbotron img {
@@ -62,6 +71,7 @@
 @media (min-width: 1150px) {
   .container {
     max-width: 80%;
+    padding: 1rem;
   }
 
   .jumbotron img {
